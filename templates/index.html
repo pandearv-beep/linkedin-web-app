@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LinkedIn Clone</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>LinkedIn Clone</h1>
+
+<section>
+    <h2>Register</h2>
+    <input id="name" placeholder="Name">
+    <input id="email" placeholder="Email">
+    <textarea id="bio" placeholder="Bio"></textarea>
+    <button onclick="register()">Register</button>
+</section>
+
+<section>
+    <h2>Create Post</h2>
+    <input id="user_id" placeholder="User ID">
+    <textarea id="content" placeholder="Post content"></textarea>
+    <button onclick="post()">Post</button>
+</section>
+
+<section>
+    <h2>Feed</h2>
+    <button onclick="loadFeed()">Load Feed</button>
+    <div id="feed"></div>
+</section>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
